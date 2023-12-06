@@ -1,0 +1,77 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2023-11-29 12:21:14.095249",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "drivername",
+  "dob",
+  "license_valid_till",
+  "age",
+  "country",
+  "driver_family"
+ ],
+ "fields": [
+  {
+   "fieldname": "drivername",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Driver Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "dob",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "DOB"
+  },
+  {
+   "fieldname": "license_valid_till",
+   "fieldtype": "Date",
+   "label": "License Valid till"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Age"
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Data",
+   "label": "Country"
+  },
+  {
+   "fieldname": "driver_family",
+   "fieldtype": "Table",
+   "label": "Driver Family",
+   "options": "Driver Family"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-11-29 12:29:41.641060",
+ "modified_by": "Administrator",
+ "module": "infy Custom app",
+ "name": "CS SCRIPT",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
